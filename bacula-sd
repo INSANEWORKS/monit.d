@@ -1,0 +1,3 @@
+check process bacula-sd with pidfile /var/run/bacula-sd.9103.pid
+        start program = "/etc/init.d/bacula-sd start"
+        stop program = "/etc/init.d/bacula-sd stop"

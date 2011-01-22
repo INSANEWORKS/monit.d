@@ -1,0 +1,3 @@
+check process mmonit with pidfile /opt/mmonit-2.3.2/logs/mmonit.pid
+  start program = "/opt/mmonit-2.3.2/bin/mmonit start"
+  stop program  = "/opt/mmonit-2.3.2/bin/mmonit stop"

@@ -1,0 +1,3 @@
+check process postgrey with pidfile /var/run/postgrey.pid
+        start program = "/etc/init.d/postgrey start"
+        stop program = "/etc/init.d/postgrey stop"
