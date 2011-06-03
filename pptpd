@@ -1,0 +1,4 @@
+check process pptpd with pidfile /var/run/pptpd.pid
+        start program = "/etc/init.d/pptpd start"
+        stop program = "/etc/init.d/pptpd stop"
+if 5 restarts within 5 cycles then alert

@@ -1,0 +1,4 @@
+check process radvd with pidfile /var/run/radvd/radvd.pid
+        start program = "/etc/init.d/radvd start"
+        stop program = "/etc/init.d/radvd stop"
+if 5 restarts within 5 cycles then alert

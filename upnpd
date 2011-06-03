@@ -1,0 +1,4 @@
+check process upnpd MATCHING upnpd
+        start program = "/etc/init.d/upnpd start"
+        stop program = "/etc/init.d/upnpd stop"
+if 5 restarts within 5 cycles then alert
