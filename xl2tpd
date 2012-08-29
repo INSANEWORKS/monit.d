@@ -1,0 +1,4 @@
+check process xl2tpd with pidfile /var/run/xl2tpd.pid
+        start program = "/etc/init.d/xl2tpd start"
+        stop program = "/etc/init.d/xl2tpd stop"
+if 5 restarts within 5 cycles then alert
