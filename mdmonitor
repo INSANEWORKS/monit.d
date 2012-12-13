@@ -1,4 +1,0 @@
-check process mdmonitor with pidfile /var/run/mdadm/mdadm.pid
-  start program = "/etc/init.d/mdmonitor start"
-  stop program  = "/etc/init.d/mdmonitor stop"
-if 5 restarts within 5 cycles then alert

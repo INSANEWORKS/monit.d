@@ -1,4 +1,0 @@
-check process iplog with pidfile /var/run/iplog.pid
-        start program = "/etc/init.d/iplog start"
-        stop program = "/etc/init.d/iplog stop"
-if 5 restarts within 5 cycles then alert

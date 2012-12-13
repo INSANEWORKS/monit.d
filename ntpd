@@ -1,4 +1,0 @@
-check process ntpd with pidfile /var/run/ntpd.pid
-        start program = "/etc/init.d/ntpd start"
-        stop program = "/etc/init.d/ntpd stop"
-if 5 restarts within 5 cycles then alert

@@ -1,4 +1,0 @@
-check process clamav-milter with pidfile /var/run/clamav/clamav-milter.pid
-        start program = "/etc/init.d/clamav-milter start"
-        stop program = "/etc/init.d/clamav-milter stop"
-if 5 restarts within 5 cycles then alert

@@ -1,4 +1,0 @@
-check process bacula-dir with pidfile /var/run/bacula-dir.9101.pid
-        start program = "/etc/init.d/bacula-dir start"
-        stop program = "/etc/init.d/bacula-dir stop"
-if 5 restarts within 5 cycles then alert

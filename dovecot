@@ -1,4 +1,0 @@
-check process dovecot with pidfile /var/run/dovecot/master.pid
-        start program = "/etc/init.d/dovecot start"
-        stop program = "/etc/init.d/dovecot stop"
-if 5 restarts within 5 cycles then alert

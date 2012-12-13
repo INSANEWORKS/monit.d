@@ -1,4 +1,0 @@
-check process dkim-milter with pidfile /var/run/dkim-milter/dkim-milter.pid
-        start program = "/etc/init.d/dkim-milter start"
-        stop program = "/etc/init.d/dkim-milter stop"
-if 5 restarts within 5 cycles then alert

@@ -1,4 +1,0 @@
-check process openfire with pidfile /var/run/openfire.pid
-        start program = "/etc/init.d/openfire start"
-        stop program = "/etc/init.d/openfire stop"
-if 5 restarts within 5 cycles then alert
