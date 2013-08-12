@@ -1,0 +1,3 @@
+check process nmbd with pidfile /var/run/nmbd.pid
+	start program = "/etc/init.d/nmb start"
+	stop program = "/etc/init.d/nmb stop"

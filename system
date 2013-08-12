@@ -1,0 +1,7 @@
+check system localhost
+	if loadavg (1min) > 10 for 10 cycles then alert
+	if loadavg (5min) > 5 for 10 cycles then alert
+	if memory usage > 90% for 10 cycles then alert
+	if cpu usage (user) > 80% for 10 cycles then alert
+	if cpu usage (system) > 80% for 10 cycles then alert
+	if cpu usage (wait) > 80% for 10 cycles then alert

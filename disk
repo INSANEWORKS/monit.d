@@ -1,0 +1,9 @@
+check filesystem root with path /dev/VolGroup/lv_root
+	if space usage > 90% for 5 cycles then alert
+	if inode usage > 90% for 5 cycles then alert
+	if changed fsflags then alert
+
+check filesystem boot with path /dev/xvda1
+	if space usage > 90% for 5 cycles then alert
+	if inode usage > 90% for 5 cycles then alert
+	if changed fsflags then alert

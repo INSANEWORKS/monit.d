@@ -1,0 +1,3 @@
+check process xl2tpd with pidfile /var/run/xl2tpd.pid
+	start program = "/etc/init.d/xl2tpd start"
+	stop program = "/etc/init.d/xl2tpd stop"

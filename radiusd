@@ -1,0 +1,3 @@
+check process radiusd with pidfile /var/run/radiusd.pid
+	start program = "/etc/init.d/radiusd start"
+	stop program = "/etc/init.d/radiusd stop"

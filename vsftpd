@@ -1,0 +1,3 @@
+check process vsftpd MATCHING "vsftpd: LISTENER"
+	start program = "/etc/init.d/vsftpd start"
+	stop program = "/etc/init.d/vsftpd stop"

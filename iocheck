@@ -1,0 +1,2 @@
+check program iscsi with path "/usr/local/bin/monit_iscsitest.sh"
+if status != 0 for 5 cycles then exec '/sbin/reboot'
