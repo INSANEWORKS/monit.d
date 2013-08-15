@@ -1,0 +1,3 @@
+check process gitlab-ci-runner with pidfile /home/gitlab_ci_runner/gitlab-ci-runner/tmp/pids/runners.pid
+	start program = "/etc/init.d/gitlab-ci-runner start"
+	stop program = "/etc/init.d/gitlab-ci-runner stop"
