@@ -1,4 +1,4 @@
-check system localhost
+check system $HOST
 	if loadavg (1min) > 10 for 10 cycles then alert
 	if loadavg (5min) > 5 for 10 cycles then alert
 	if memory usage > 90% for 10 cycles then alert
