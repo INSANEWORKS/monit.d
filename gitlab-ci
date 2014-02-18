@@ -1,3 +1,3 @@
 check process gitlab-ci with pidfile /home/gitlab_ci/gitlab-ci/tmp/pids/sidekiq.pid
-	start program = "/etc/init.d/gitlab_ci start"
-	stop program = "/etc/init.d/gitlab_ci stop"
+	start program = "/etc/init.d/gitlab-ci start"
+	stop program = "/etc/init.d/gitlab-ci stop"
