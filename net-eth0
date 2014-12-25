@@ -1,13 +1,13 @@
 check network eth0 with interface eth0
-	start program = "/sbin/ifup eth0"
-	stop program = "/sbin/ifdown eth0"
-	if changed link capacity then alert
-	if failed link then restart
-	if changed link then alert
-	if saturation > 50% for 10 cycles then alert
-	if upload > 10 Mb/s for 10 cycles then alert
-	if download > 10 MB/s for 10 cycles then alert
-	#if upload > 1000 packets/s for 10 cycles then alert
-	#if download > 1000 packets/s for 10 cycles then alert
-	#if total upload > 10 GB in last 1 hour for 10 cycles then alert
-	#if total download > 10 GB in last 1 hours for 10 cycles then alert
+  start program = "/sbin/ifup eth0"
+  stop program = "/sbin/ifdown eth0"
+  if changed link capacity then alert
+  if failed link then restart
+  if changed link then alert
+  if saturation > 50% for 10 cycles then alert
+  if upload > 10 Mb/s for 10 cycles then alert
+  if download > 10 MB/s for 10 cycles then alert
+  #if upload > 1000 packets/s for 10 cycles then alert
+  #if download > 1000 packets/s for 10 cycles then alert
+  #if total upload > 10 GB in last 1 hour for 10 cycles then alert
+  #if total download > 10 GB in last 1 hours for 10 cycles then alert

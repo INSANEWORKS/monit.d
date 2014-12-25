@@ -1,3 +1,3 @@
 check process ipsec with pidfile /var/run/pluto/pluto.pid
-	start program = "/etc/init.d/ipsec start"
-	stop program = "/etc/init.d/ipsec stop"
+  start program = "/etc/init.d/ipsec start"
+  stop program = "/etc/init.d/ipsec stop"

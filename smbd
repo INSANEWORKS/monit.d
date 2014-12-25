@@ -1,3 +1,3 @@
 check process smbd with pidfile /var/run/smbd.pid
-	start program = "/etc/init.d/smb start"
-	stop program = "/etc/init.d/smb stop"
+  start program = "/etc/init.d/smb start"
+  stop program = "/etc/init.d/smb stop"

@@ -1,3 +1,3 @@
 check process arpwatch MATCHING arpwatch
-	start program = "/etc/init.d/arpwatch start"
-	stop program = "/etc/init.d/arpwatch stop"
+  start program = "/etc/init.d/arpwatch start"
+  stop program = "/etc/init.d/arpwatch stop"
