@@ -5,9 +5,9 @@ check network eth1 with interface eth1
   if failed link then restart
   if changed link then alert
   if saturation > 50% for 10 cycles then alert
-  if upload > 10 Mb/s for 10 cycles then alert
-  if download > 10 MB/s for 10 cycles then alert
+  #if upload > 10 Mb/s for 10 cycles then alert
+  #if download > 10 MB/s for 10 cycles then alert
   #if upload > 1000 packets/s for 10 cycles then alert
   #if download > 1000 packets/s for 10 cycles then alert
-  if total upload > 10 GB in last 1 hour for 10 cycles then alert
-  if total download > 10 GB in last 1 hours for 10 cycles then alert
+  #if total upload > 10 GB in last 1 hour for 10 cycles then alert
+  #if total download > 10 GB in last 1 hours for 10 cycles then alert
