@@ -1,0 +1,3 @@
+check process gitlab-runner with pidfile /var/run/gitlab-runner.pid
+  start program = "/etc/init.d/gitlab-runner start"
+  stop program = "/etc/init.d/gitlab-runner stop"
